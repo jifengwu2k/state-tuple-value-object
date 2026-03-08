@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "state-tuple-value-object"
+version = "0.1.0a0"
+description = "A simple Python base class for immutable objects whose value is determined by a state tuple."
+readme = "README.md"
+requires-python = ">=2"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/state-tuple-value-object"
+"Bug Tracker" = "https://github.com/jifengwu2k/state-tuple-value-object/issues"
